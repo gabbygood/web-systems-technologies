@@ -1,0 +1,177 @@
+body {
+    background-image: linear-gradient(to right, orange, blue, green);
+    margin-left: 35%;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.main-body {
+    visibility: hidden;
+}
+
+.label-first-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.label-last-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+
+.label-email {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.label-gender {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.label-date-of-birth {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.label-address {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.label-city {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.label-zip-code {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.student-reg {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    animation: student 10s both .1s infinite;
+}
+
+/*Layout*/
+
+.inputs-parent {
+    background-color: yellowgreen;
+    padding: 5em;
+    width: max-content;
+    border-radius: 10%;
+    box-shadow: inset;
+}
+
+.parent-first-name {
+    display: flex;
+}
+
+.input-first-name {
+    margin-top: 1em;
+    margin-left: 10em;
+}
+
+.parent-last-name {
+    display: flex;
+}
+
+.input-last-name {
+    margin-top: 1em;
+    margin-left: 10.5em;
+}
+
+.parent-email {
+    display: flex;
+}
+
+.input-email {
+    margin-top: 1em;
+    margin-left: 13.1em;
+}
+
+.parent-gender {
+    display: flex;
+}
+
+.input-gender {
+    margin-top: 1em;
+    margin-left: 12.9em;
+}
+
+
+.parent-date-of-birth {
+    display: flex;
+}
+
+
+.input-date-of-birth {
+    margin-top: 1em;
+    margin-left: 8.5em;
+}
+
+.input-address {
+    margin-top: 1em;
+    margin-left: 12.599em;
+}
+
+.parent-address {
+    display: flex;
+}
+
+.parent-city {
+    display: flex
+}
+
+.input-city {
+    margin-top: 1em;
+    margin-left: 14.5em;
+}
+
+
+.parent-zip-code {
+    display: flex;
+}
+
+.input-zip-code {
+    margin-top: 1em;
+    margin-left: 12.1em;
+}
+
+.btnSubmit {
+    margin-left: 35%;
+    background-color: rgb(32, 133, 32);
+    padding: 1em;
+    border-radius: 20%;
+    width: 30%;
+    border-color: white;
+}
+
+.btnSubmit:hover {
+    color: transparent;
+}
+
+@keyframes student {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: gray;
+    }
+
+    75% {
+        color: blanchedalmond;
+    }
+
+    100% {
+        color: lightseagreen
+    }
+}
