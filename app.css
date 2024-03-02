@@ -73,7 +73,7 @@ li {
 .footer-container {
     background-color: black;
     height: 190px;
-    margin: 0 auto;
+    margin-top: 11em;
     max-height: 190px;
 }
 
